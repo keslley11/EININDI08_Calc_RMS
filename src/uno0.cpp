@@ -24,7 +24,7 @@ void analogReadFunc() {                      // Faz a leitura do sinal Analógic
   if(index==WINSIZE){
     // rmsFinal = calculateRMS(arrayValue, index);
     const float aux = calculateRMS(arrayValue, index);
-    rmsFinal = abs(rmsFinal - aux) < 0.3 ? rmsFinal: aux;
+    rmsFinal = abs(rmsFinal - aux) < 0.9 ? rmsFinal: aux;
     index = 0;
   }
 }
