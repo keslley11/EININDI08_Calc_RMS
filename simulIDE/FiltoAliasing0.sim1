@@ -15,7 +15,7 @@
 <item itemtype="Resistor" CircId="Resistor-28" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="84,-292" rotation="0" hflip="1" vflip="1" label="Resistor-41" idLabPos="-12,-20" labelrot="0" valLabPos="-9,-18" valLabRot="0" Resistance="1 kΩ" />
 
 <item itemtype="Subcircuit" CircId="Uno-27" mainComp="false" Show_id="true" Show_Val="false" Pos="-320,-300" rotation="0" hflip="1" vflip="1" label="Arduino Uno-1" idLabPos="91,-18" labelrot="0" valLabPos="0,0" valLabRot="0" Logic_Symbol="false">
-<mainCompProps MainCompId="27_mega328-109" Frequency="16 MHz" Program="../.pio/build/uno/firmware.hex" Auto_Load="false" saveEepr="true" eeprom="0,0," SerialMon="-1" />
+<mainCompProps MainCompId="27_mega328-109" Frequency="16 MHz" Auto_Load="false" saveEepr="true" eeprom="0,0,0," SerialMon="-1" />
 </item>
 
 <item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-132,-252" rotation="90" hflip="1" vflip="1" label="Resistor-2" idLabPos="-12,-20" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="33 kΩ" />
@@ -38,11 +38,11 @@
 
 <item itemtype="Rail" CircId="Rail-5" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="140,-332" rotation="90" hflip="1" vflip="1" label="Rail-41" idLabPos="-16,-24" labelrot="0" valLabPos="-20,8" valLabRot="-90" Voltage="-550 V" />
 
-<item itemtype="Rail" CircId="Rail-4" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="140,-252" rotation="90" hflip="1" vflip="-1" label="Rail-41" idLabPos="-16,-24" labelrot="0" valLabPos="-2.49651,12.2008" valLabRot="-270" Voltage="550 V" />
+<item itemtype="Rail" CircId="Rail-4" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="140,-252" rotation="90" hflip="1" vflip="-1" label="Rail-41" idLabPos="-16,-24" labelrot="0" valLabPos="-2,12" valLabRot="-270" Voltage="550 V" />
 
 <item itemtype="Rail" CircId="Rail-3" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-36,-328" rotation="90" hflip="1" vflip="1" label="Rail-41" idLabPos="-16,-24" labelrot="0" valLabPos="-20,8" valLabRot="-90" Voltage="550 V" />
 
-<item itemtype="Rail" CircId="Rail-2" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-36,-240" rotation="90" hflip="1" vflip="-1" label="Rail-41" idLabPos="-16,-24" labelrot="0" valLabPos="-1.09623,8.70014" valLabRot="-270" Voltage="-550 V" />
+<item itemtype="Rail" CircId="Rail-2" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-36,-240" rotation="90" hflip="1" vflip="-1" label="Rail-41" idLabPos="-16,-24" labelrot="0" valLabPos="-1,8" valLabRot="-270" Voltage="-550 V" />
 
 <item itemtype="Oscope" CircId="Oscope-101" mainComp="false" Show_id="false" Show_Val="false" Pos="160,56" rotation="0" hflip="1" vflip="1" label="Oscope-101" idLabPos="-90,-100" labelrot="0" valLabPos="0,0" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" TimDiv="34664166119" TimPos="0,1004826978,1004826978,1004826978," VolDiv="22.6514,22.6514,22.6514,22.6514," Tunnels=",,,," Trigger="0" Filter="0 V" Trigger="0" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="-2.47454,-2.47454,-2.47454,-2.47454," />
 
@@ -50,7 +50,7 @@
 
 <item itemtype="WaveGen" CircId="WaveGen-122" mainComp="false" Show_id="false" Show_Val="true" Pos="256,-356" rotation="0" hflip="-1" vflip="1" label="WaveGen-115" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="60 Hz" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="311 V" Mid_Volt="0 V" />
 
-<item itemtype="SerialPort" CircId="SerialPort-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-288,-336" rotation="0" hflip="1" vflip="1" label="SerialPort-101" idLabPos="-34,-20" labelrot="0" valLabPos="0,0" valLabRot="0" Port="COM3" Baudrate="19200 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" SerialMon="false" />
+<item itemtype="SerialPort" CircId="SerialPort-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-288,-336" rotation="0" hflip="1" vflip="1" label="SerialPort-101" idLabPos="-34,-20" labelrot="0" valLabPos="0,0" valLabRot="0" Port="COM7" Baudrate="19200 _Bauds" DataBits="8 _Bits" StopBits="1 _Bits" SerialMon="false" />
 
 <item itemtype="Resistor" CircId="Resistor-137" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="212,-332" rotation="0" hflip="1" vflip="1" label="Resistor-137" idLabPos="-12,-20" labelrot="0" valLabPos="-8,-17" valLabRot="0" Resistance="30 kΩ" />
 
@@ -176,6 +176,6 @@
 
 <item itemtype="Connector" uid="Connector-144" startpinid="Resistor-139-lPin" endpinid="Node-142-1" pointList="196,-304,176,-304" />
 
-<item itemtype="Connector" uid="Connector-144" startpinid="Node-142-2" endpinid="opAmp-32-inputInv" pointList="176,-304,176,-300,164,-300,164,-300" />
+<item itemtype="Connector" uid="Connector-144" startpinid="Node-142-2" endpinid="opAmp-32-inputInv" pointList="176,-304,176,-300,164,-300" />
 
 </circuit>
