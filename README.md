@@ -1,4 +1,4 @@
-# Cálculo de RMS com Janela Fixa e Janela Deslizante
+# ININDI - Cálculo de RMS com Janela Fixa e Janela Deslizante
 
 ## Sumário
 - [Introdução](#introdução)

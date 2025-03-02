@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Subtree Add",
+            "type": "shell",
+            "command": "git subtree add --prefix=nome_da_pasta https://github.com/usuario/repo_externo.git master --squash",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Subtree Pull",
+            "type": "shell",
+            "command": "git subtree pull --prefix=nome_da_pasta https://github.com/usuario/repo_externo.git master --squash",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Subtree Push",
+            "type": "shell",
+            "command": "git subtree push --prefix=nome_da_pasta https://github.com/usuario/repo_externo.git master",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
