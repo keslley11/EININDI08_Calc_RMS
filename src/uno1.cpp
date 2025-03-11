@@ -4,6 +4,9 @@
 #define pinANALOG A5                        // Pino de leitura do sinal
 #define WINSIZE 200                        // Tamanho da janela deslizante
 
+#define A 1
+#define B 0
+
 int buffer[WINSIZE];
 float rmsValue = 0;
 int index = 0;
@@ -41,7 +44,7 @@ void loop() {
     int sample = analogRead(pinANALOG);
     updateBuffer(sample);
     // Atualiza o RMS com base na janela deslizante
-    rmsValue = computeSlidingRMS();
+    rmsValue = A*computeSlidingRMS()+B;
   }
   if (currentMillis - previousPrint >= PRINT_DELAY_MS) {
     previousPrint = currentMillis;

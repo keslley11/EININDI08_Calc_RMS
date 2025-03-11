@@ -22,9 +22,9 @@ void printSerial(const uint32_t &currentMilis) {
 void analogReadFunc() {                      // Faz a leitura do sinal Analógico
   arrayValue[index++] = analogRead(pinANALOG);
   if(index==WINSIZE){
-    // rmsFinal = calculateRMS(arrayValue, index);
-    const float aux = calculateRMS(arrayValue, index);
-    rmsFinal = abs(rmsFinal - aux) < 0.9 ? rmsFinal: aux;
+    rmsFinal = calculateRMS(arrayValue, index);
+    //const float aux = calculateRMS(arrayValue, index);
+    //rmsFinal = abs(rmsFinal - aux) < 0.9 ? rmsFinal: aux;
     index = 0;
   }
 }
