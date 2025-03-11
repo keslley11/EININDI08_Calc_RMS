@@ -44,14 +44,14 @@ void loop() {
     int sample = analogRead(pinANALOG);
     updateBuffer(sample);
     // Atualiza o RMS com base na janela deslizante
-    rmsValue = A*computeSlidingRMS()+B;
+    rmsValue = computeSlidingRMS();
   }
   if (currentMillis - previousPrint >= PRINT_DELAY_MS) {
     previousPrint = currentMillis;
     Serial.print(">graf:");
     Serial.print(currentMillis);
     Serial.print(":");
-    Serial.print(rmsValue);
+    Serial.print(A*rmsValue+B);
     Serial.println("|g");
   }
 }
