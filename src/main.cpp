@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "IIKit.h"
+#include "IIKitmini.h"   // Biblioteca base do framework Arduino, necessária para funções básicas como Serial e delays.
 
 void setup()
 {
